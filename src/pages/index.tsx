@@ -13,10 +13,26 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.heroContent}>
+          <div className={styles.heroText}>
+            <Heading as="h1" className="hero__title">
+              {siteConfig.title}
+            </Heading>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
+          </div>
+          <div className={styles.heroImage}>
+            <img 
+              src="/img/happy-sprite.png" 
+              alt="Happy Sprite" 
+              className={styles.spriteLight}
+            />
+            <img 
+              src="/img/sad-sprite.png" 
+              alt="Sad Sprite" 
+              className={styles.spriteDark}
+            />
+          </div>
+        </div>
       </div>
     </header>
   );
