@@ -3,7 +3,7 @@ garden:
   permalink: /garden
   description: General posts regarding updateds to the garden
 
-garden:
+journal:
   label: Journal
   permalink: /journal
   description: Oddly's journal entries
