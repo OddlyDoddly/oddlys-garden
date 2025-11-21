@@ -1,7 +1,12 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+garden:
+  label: Garden
+  permalink: /garden
+  description: General posts regarding updateds to the garden
+
+garden:
+  label: Journal
+  permalink: /journal
+  description: Oddly's journal entries
 
 hello:
   label: Hello

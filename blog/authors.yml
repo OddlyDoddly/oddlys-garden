@@ -23,3 +23,16 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+oddly:
+  name: Oddly Doddly
+  title: Network Owner
+  url: https://oddlydoddly.com
+  image_url: https://github.com/oddlydoddly.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/oddlydoddly'
+  socials:
+    linkedin: ddodds-rainclouds
+    github: oddlydoddly
+    newsletter: https://oddlydoddly.com/blog/authors/oddlydoddly
