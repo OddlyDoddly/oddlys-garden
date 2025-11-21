@@ -32,11 +32,13 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: '',
+    title: 'What projects are you working on?',
     src: 'img/skull.png',
     description: (
       <>
-        ---
+        oddly-copilot: --
+        oddly-garden: --
+        oddly-infrastructures --
       </>
     ),
   },

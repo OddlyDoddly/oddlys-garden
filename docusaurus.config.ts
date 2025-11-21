@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Oddly\'s Digital Garden',
-  tagline: 'The digital garden of OddlyDoddly',
+  title: 'The Garden of Oddly',
+  tagline: 'An enchanted digital collection of technological shenanegans.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -75,10 +75,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Oddly\'s Garden',
+      title: 'OddlyDoddly',
       logo: {
         alt: 'Oddly\'s Garden Logo',
-        src: 'img/rabbit.png',
+        src: 'img/mushroom-small.png',
       },
       items: [
         {
@@ -97,47 +97,6 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/OddlyDoddly/oddlys-garden',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} OddlyDoddly. Built with Docusaurus.`,
     },
     prism: {

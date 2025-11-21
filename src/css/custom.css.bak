@@ -101,13 +101,3 @@
   --ifm-color-warning: #fabd2f;
   --ifm-color-danger: #fb4934;
 }
-
-.hero__subtitle {
-  color: var(--ifm-heading-color) !important;
-  font-weight: bold !important;
-}
-
-footer.footer {
-  background: var(--ifm-background-color) !important; /* or your custom color */
-  padding: 4px !important;
-}
