@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Oddly\'s Garden',
-  tagline: 'My personal tech notebook',
+  title: 'Oddly\'s Digital Garden',
+  tagline: 'The digital garden of OddlyDoddly',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -78,7 +78,7 @@ const config: Config = {
       title: 'Oddly\'s Garden',
       logo: {
         alt: 'Oddly\'s Garden Logo',
-        src: 'img/logo.svg',
+        src: 'img/rabbit.png',
       },
       items: [
         {
