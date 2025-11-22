@@ -1,0 +1,8 @@
+{
+  "label": "Software Design",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "A collection of software design documents detailing architecture, components, and design decisions."
+  }
+}
