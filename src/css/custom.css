@@ -102,12 +102,34 @@
   --ifm-color-danger: #fb4934;
 }
 
+.heroBanner {
+  text-align: left !important;
+}
+
+.hero__title {
+  color: var(--ifm-heading-color) !important;
+  text-shadow:
+    0 0 2px var(--ifm-background-color),
+    0 0 2px var(--ifm-background-color),
+    0 0 2px var(--ifm-background-color),
+    0 0 2px var(--ifm-background-color) !important;
+  font-weight: bold !important;
+}
+
 .hero__subtitle {
+  text-shadow:
+    0 0 2px var(--ifm-background-color),
+    0 0 2px var(--ifm-background-color),
+    0 0 2px var(--ifm-background-color),
+    0 0 2px var(--ifm-background-color);  
   color: var(--ifm-heading-color) !important;
   font-weight: bold !important;
 }
 
+
+
 footer.footer {
+  color: var(--ifm-heading-color) !important;
   background: var(--ifm-background-color) !important; /* or your custom color */
   padding: 4px !important;
 }

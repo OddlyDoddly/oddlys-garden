@@ -22,13 +22,8 @@ function HomepageHeader() {
           </div>
           <div className={styles.heroImage}>
             <img 
-              src="/img/happy-sprite.png" 
-              alt="Happy mushroom character for light theme" 
-              className={styles.spriteLight}
-            />
-            <img 
               src="/img/sad-sprite.png" 
-              alt="Sad mushroom character for dark theme" 
+              alt="Mushroom Sprite" 
               className={styles.spriteDark}
             />
           </div>
