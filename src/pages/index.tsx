@@ -22,7 +22,7 @@ function HomepageHeader() {
           </div>
           <div className={styles.heroImage}>
             <img 
-              src="/img/sad-sprite.png" 
+              src="img/sad-sprite.png" 
               alt="Mushroom Sprite" 
               className={styles.spriteDark}
             />
