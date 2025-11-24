@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <Heading as="h1" className="hero__title">
-              {siteConfig.title}
+              {siteConfig.customFields.headline}
             </Heading>
             <p className="hero__subtitle">{siteConfig.tagline}</p>
           </div>

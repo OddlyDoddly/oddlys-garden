@@ -1,0 +1,8 @@
+{
+  "label": "Philosophies",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A collection of recorded methodologies and the reasonings behind following those methods."
+  }
+}

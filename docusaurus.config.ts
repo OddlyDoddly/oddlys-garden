@@ -5,9 +5,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'The Garden of Oddly',
+  title: '[Public] The Garden of Oddly',
   tagline: 'An enchanted digital collection of technological shenanegans.',
   favicon: 'img/favicon.ico',
+  
+  customFields: {
+    headline: 'The Garden of Oddly'
+  },
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -43,8 +47,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/OddlyDoddly/oddlys-garden/tree/main/',
+          editUrl: 'https://github.com/OddlyDoddly/oddlys-garden/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -81,15 +84,30 @@ const config: Config = {
         src: 'img/mushroom-small.png',
       },
       items: [
+        //  {
+        //    type: 'docSidebar',
+        //    sidebarId: 'tutorialSidebar',
+        //    position: 'left',
+        //    label: 'Notebook',
+        // },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Notebook',
+            to: '/docs/software',
+            label: 'Software',
+            position: 'left'
         },
         {
-          to: '/blog',
-          label: 'Blog',
+            to: '/docs/philosophies',
+            label: 'Philosophies',
+            position: 'left'
+        },
+        {
+            to: '/blog/tags/meditations',
+            label: 'Meditations',
+            position: 'left'
+        },
+        {
+          to: '/blog/tags/chronicle',
+          label: 'Chronicle',
           position: 'left'
         },
         {

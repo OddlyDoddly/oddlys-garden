@@ -18,16 +18,37 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
       type: 'doc',
-      id: 'intro', // docs/intro.md
-      label: "Oddly's Notebook", // what shows in the sidebar
+      id: 'cover', // docs/intro.md
+      label: "Cover Page", // what shows in the sidebar
+    },
+    {
+        type: 'category',
+        label: 'Philosophies',
+        link: {
+          type: 'generated-index',
+          title: 'Philosophies',
+          description: 'A collection of methodologies and the reasonings behind following them.',
+          slug: '/philosophies',
+          keywords: ['philosophy', 'philosophies']
+        },
+        items: [
+          'philosophies/philosophy-of-philosophy'
+        ]
     },
     {
       type: 'category',
-      label: 'Software Design',
+      label: 'Software Design Documents',
+      link: {
+        type: 'generated-index',
+        title: 'Software Design Documents',
+        description: 'Software Design Documents for Oddly\'s hobby projects.',
+        slug: '/software',
+        keywords: ['software', 'software-design']
+      },
       items: [
-        'software-design/ai-knowledge-base'
+        'software/gnomicon-knowledge-base'
       ],
-    }
+    },
   ],
 };
 

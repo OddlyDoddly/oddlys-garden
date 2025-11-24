@@ -1,9 +1,9 @@
-garden:
-  label: Garden
-  permalink: /garden
-  description: General posts regarding updateds to the garden
+chronicle:
+  label: Chronicle
+  permalink: /chronicle
+  description: Chronicles are recordings of events that happened at a particular datetime.
 
-journal:
-  label: Journal
-  permalink: /journal
-  description: Oddly's journal entries
+meditations:
+  label: Meditations
+  permalink: /meditations
+  description: Meditations are contemplative thoughts regarding any arbitrary subject.
