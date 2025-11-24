@@ -84,30 +84,29 @@ const config: Config = {
         src: 'img/mushroom-small.png',
       },
       items: [
-        //  {
-        //    type: 'docSidebar',
-        //    sidebarId: 'tutorialSidebar',
-        //    position: 'left',
-        //    label: 'Notebook',
-        // },
         {
             to: '/docs/software',
-            label: 'Software',
+            label: '🕮 Technologies',
             position: 'left'
         },
         {
             to: '/docs/philosophies',
-            label: 'Philosophies',
+            label: '🕮 Philosophies',
+            position: 'left'
+        },
+        {
+            to: '/docs/politics',
+            label: '🕮 Politics',
             position: 'left'
         },
         {
             to: '/blog/tags/meditations',
-            label: 'Meditations',
+            label: '🖆 Meditations',
             position: 'left'
         },
         {
           to: '/blog/tags/chronicle',
-          label: 'Chronicle',
+          label: '🖆 Chronicle',
           position: 'left'
         },
         {

@@ -36,6 +36,20 @@ const sidebars: SidebarsConfig = {
         ]
     },
     {
+        type: 'category',
+        label: 'Politics',
+        link: {
+          type: 'generated-index',
+          title: 'Politics',
+          description: 'Oddly\'s Political opinions and philosophies',
+          slug: '/politics',
+          keywords: ['politics', 'policies']
+        },
+        items: [
+          'politics/immigration'
+        ]
+    },
+    {
       type: 'category',
       label: 'Software Design Documents',
       link: {

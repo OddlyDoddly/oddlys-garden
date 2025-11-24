@@ -1,0 +1,8 @@
+{
+  "label": "Politics",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "My opinion on political methodologies and resolving political issues"
+  }
+}
