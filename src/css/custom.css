@@ -4,14 +4,16 @@
  * work well for content-centric websites.
  */
 
-/* Import Google Fonts - Crimson Text for a classic book/fantasy style */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/* Import Google Fonts - Noto Serif for comprehensive Unicode support */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/* Import Noto Sans Symbols 2 for extended unicode glyph support */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap');
 
 /* Gruvbox Light Theme */
 :root {
   /* Font Family - Apply serif typeface across the project */
-  --ifm-font-family-base: 'Crimson Text', Georgia, serif;
-  --ifm-heading-font-family: 'Crimson Text', Georgia, serif;
+  --ifm-font-family-base: 'Noto Serif', 'Noto Sans Symbols 2', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', serif;
+  --ifm-heading-font-family: 'Noto Serif', 'Noto Sans Symbols 2', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', serif;
   
   /* Gruvbox Light - Primary Colors (using aqua/blue tones) */
   --ifm-color-primary: #427b58;
