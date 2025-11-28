@@ -135,3 +135,10 @@ footer.footer {
   background: var(--ifm-background-color) !important; /* or your custom color */
   padding: 4px !important;
 }
+
+/* Ensure unicode glyphs render properly in navigation */
+.navbar__link,
+.navbar__item {
+  font-feature-settings: normal;
+  text-rendering: optimizeLegibility;
+}
