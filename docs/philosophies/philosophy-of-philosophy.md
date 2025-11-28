@@ -49,6 +49,7 @@ I aspire to be my own Ubermesnche and these are the values that guide why I do p
 These are my philosophies of Philosophies.
 
 ~ Dylan Dodds (Oddly Doddly)
+
 Friday, November 28, 2025 3:00:00 AM EST
 
 
