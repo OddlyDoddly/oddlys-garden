@@ -32,7 +32,8 @@ const sidebars: SidebarsConfig = {
           keywords: ['philosophy', 'philosophies']
         },
         items: [
-          'philosophies/philosophy-of-philosophy'
+          'philosophies/philosophy-of-philosophy',
+          'philosophies/philosophy-of-truth',
         ]
     },
     {
