@@ -1,0 +1,42 @@
+.authorSignature {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.writtenByHeader {
+  font-size: 0.9rem;
+  color: var(--ifm-font-color-secondary);
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.authorInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profilePic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--ifm-color-emphasis-300);
+}
+
+.authorNames {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.penName {
+  font-weight: 600;
+  color: var(--ifm-font-color-base);
+  font-size: 1rem;
+}
+
+.realName {
+  color: var(--ifm-font-color-secondary);
+  font-size: 0.9rem;
+}

@@ -1,5 +1,10 @@
 ---
 sidebar-position: 1
+last_update:
+  date: 2025-11-28
+  author: Dylan Dodds
+date: 2025-11-28
+custom_edit_url: null
 ---
 
 # Philosophy of Philosophy
@@ -52,15 +57,3 @@ I understand nature by understanding the conditions I live under, by understandi
 A fulfilling life to me is one full of development, growth, strength, resilience, and overcoming my environment—while staying true to my own nature. My life is an artwork, and I am the artist. I paint whatever I believe belongs on the canvas. I live by my own rules, on my own terms. I aim to gain power over myself before anything else, and influence others by teaching them to do the same. Maybe that influence appears during my life; maybe afterward.
 
 I suppose I just aspire to live true to my *Nature*.
-
----
-
-#### Signature
-
-~ Dylan Dodds (Oddly Doddly)
-
-Written: Friday, November 28, 2025 — 3:00 AM EST
-
-Last updated: Friday November 28, 2025 - 5:37 AM EST
-
-(ChatGPT Used for grammar correction and proof reading, concept is an original piece by Dylan Dodds, aka "OddlyDoddly")
