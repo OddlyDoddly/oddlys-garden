@@ -1,16 +1,50 @@
 import React from 'react';
-import Footer from '@theme-original/DocItem/Footer';
-import type FooterType from '@theme/DocItem/Footer';
-import type {WrapperProps} from '@docusaurus/types';
+import clsx from 'clsx';
+import {ThemeClassNames} from '@docusaurus/theme-common';
+import {useDoc} from '@docusaurus/plugin-content-docs/client';
+import TagsListInline from '@theme/TagsListInline';
+import EditMetaRow from '@theme/EditMetaRow';
 import AuthorSignature from '@site/src/components/AuthorSignature';
 
-type Props = WrapperProps<typeof FooterType>;
-
-export default function FooterWrapper(props: Props): JSX.Element {
+export default function DocItemFooter(): JSX.Element | null {
+  const {metadata} = useDoc();
+  const {editUrl, tags} = metadata;
+  const canDisplayTagsRow = tags.length > 0;
+  // Don't show editUrl in EditMetaRow since AuthorSignature handles metadata
+  const canDisplayEditMetaRow = !!editUrl;
+  const canDisplayFooter = canDisplayTagsRow || canDisplayEditMetaRow;
+  
   return (
     <>
       <AuthorSignature />
-      <Footer {...props} />
+      {canDisplayFooter && (
+        <footer
+          className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
+          {canDisplayTagsRow && (
+            <div
+              className={clsx(
+                'row margin-top--sm',
+                ThemeClassNames.docs.docFooterTagsRow,
+              )}>
+              <div className="col">
+                <TagsListInline tags={tags} />
+              </div>
+            </div>
+          )}
+          {canDisplayEditMetaRow && (
+            <EditMetaRow
+              className={clsx(
+                'margin-top--sm',
+                ThemeClassNames.docs.docFooterEditMetaRow,
+              )}
+              editUrl={editUrl}
+              // Don't pass lastUpdatedAt and lastUpdatedBy since AuthorSignature shows them
+              lastUpdatedAt={undefined}
+              lastUpdatedBy={undefined}
+            />
+          )}
+        </footer>
+      )}
     </>
   );
 }

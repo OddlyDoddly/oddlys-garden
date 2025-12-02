@@ -4,6 +4,19 @@
   border-top: 1px solid var(--ifm-color-emphasis-300);
 }
 
+.signatureContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.authorSection {
+  flex: 1;
+  min-width: 250px;
+}
+
 .writtenByHeader {
   font-size: 0.9rem;
   color: var(--ifm-font-color-secondary);
@@ -39,4 +52,42 @@
 .realName {
   color: var(--ifm-font-color-secondary);
   font-size: 0.9rem;
+}
+
+.metadataSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.metadataItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.metadataLabel {
+  font-size: 0.75rem;
+  color: var(--ifm-font-color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.metadataValue {
+  font-size: 0.9rem;
+  color: var(--ifm-font-color-base);
+}
+
+@media (max-width: 768px) {
+  .signatureContent {
+    flex-direction: column;
+  }
+  
+  .metadataSection {
+    align-items: flex-start;
+    text-align: left;
+  }
 }
