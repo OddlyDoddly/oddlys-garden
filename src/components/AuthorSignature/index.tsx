@@ -9,7 +9,11 @@ export default function AuthorSignature(): JSX.Element {
   const formatDate = (date: string | number | Date | null | undefined): string | null => {
     if (!date) return null;
     try {
-      const dateObj = typeof date === 'number' ? new Date(date) : new Date(date as string);
+      const dateObj = typeof date === 'number' 
+        ? new Date(date) 
+        : date instanceof Date 
+          ? date 
+          : new Date(String(date));
       return dateObj.toLocaleDateString('en-US', {
         year: 'numeric',
         month: 'short',
@@ -20,7 +24,7 @@ export default function AuthorSignature(): JSX.Element {
     }
   };
 
-  const writtenDate = formatDate(frontMatter.date as string);
+  const writtenDate = formatDate(frontMatter.date);
   const lastUpdatedDate = metadata.lastUpdatedAt ? formatDate(metadata.lastUpdatedAt) : null;
   const lastUpdatedAuthor = metadata.lastUpdatedBy;
 
